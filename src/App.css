@@ -1,0 +1,34 @@
+.root{
+  background-color: #efefef;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.spacing{
+  padding: 0px 10px;
+}
+
+.vertical-spacing{
+  padding: 0px;
+}
+@media only screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .spacing{
+    padding: 20px 0px;
+  }
+
+  .vertical-spacing{
+    padding-top:20px;
+  }
+}
