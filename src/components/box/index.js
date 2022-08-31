@@ -19,7 +19,7 @@ function Box({ title, img, isInput, isProcessing, imageHandler }) {
                 id="file-input"
                 type="file"
                 onChange={imageHandler}
-                accept="image/jpg"
+                accept=".jpg,.jpeg"
               />
             </div>
           )}
